@@ -1,0 +1,5 @@
+9.3.2026
+
+V tomto adresari se brzy objevi zdrojove texty z knihy 100x Android, v jazyce Kotlin
+
+Ludek Hrusdak, autor
