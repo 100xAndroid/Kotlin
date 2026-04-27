@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StrankaNougat">
+
+    <!-- constraint layout, s obsahem prvni stranky
+         sirka a vyska max, ale s okrajem 30dp,
+         s rameckem definovanym v drawable/ramecek.xml -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/ramecek">
+
+        <!-- ImageView - obrazek verze androidu z resources
+             sirka max, vyska podle obsahu, ale s okrajem 30dp,
+             oramovany na sirku 1dp,
+             obrazek vycenttrovany, prizpusobena velikost -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:adjustViewBounds="true"
+            android:background="#dddddd"
+            android:padding="1dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nougat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- textove pole s nazvem verze Androidu,
+             sirka max, vyska podle obsahu, okraj 32dp,
+             velikost textu 26sp -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:text="Nougat"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <!-- textove pole s cislem verze Androidu,
+             sirka max, vyska podle obsahu, okraje,
+             velikost textu 20sp -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Android 7.0 - 7.1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <!-- textove pole s cisly aktualizaci a verzi API,
+             sirka max, vyska podle obsahu, okraje,
+             velikost textu 14sp -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Aktualizace 7.1.1 a 7.1.2\nAPI verze 24, 25"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
