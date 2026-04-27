@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Search View</string>
+    <string-array name="androidVerze">
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>Cupcake, Android 1.5</item>
+        <item>Donut, Android 1.6</item>
+        <item>Eclair, Android 2.0</item>
+        <item>Eclair, Android 2.1</item>
+        <item>Froyo, Android 2.2</item>
+        <item>Gingerbread, Android 2.3</item>
+        <item>Honeycomb, Android 3.0</item>
+        <item>Honeycomb, Android 3.1</item>
+        <item>Honeycomb, Android 3.2</item>
+        <item>Ice Cream Sandwich, Android 4.0</item>
+        <item>Jelly Bean, Android 4.1</item>
+        <item>Jelly Bean, Android 4.2</item>
+        <item>Jelly Bean, Android 4.3</item>
+        <item>KitKat, Android 4.4</item>
+        <item>Lollipop, Android 5.0</item>
+        <item>Lollipop, Android 5.1</item>
+        <item>Marshmallow, Android 6.0</item>
+        <item>Nougat, Android 7.0</item>
+        <item>Nougat, Android 7.1</item>
+        <item>Oreo, Android 8.0</item>
+        <item>Oreo, Android 8.1</item>
+        <item>Pie, Android 9.0</item>
+        <item>10, Android 10</item>
+        <item>11, Android 11</item>
+        <item>12, Android 12</item>
+        <item>13, Android 13</item>
+        <item>14, Android 14</item>
+    </string-array>
+</resources>
