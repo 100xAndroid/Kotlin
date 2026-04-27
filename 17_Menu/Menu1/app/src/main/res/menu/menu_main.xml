@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nastaveni"
+        android:title="Nastavení" />
+    <item android:id="@+id/test1"
+        android:title="Test 1" />
+    <item android:id="@+id/test2"
+        android:title="Test 2" />
+    <item android:id="@+id/napoveda"
+        android:title="Nápověda" />
+    <item android:id="@+id/oaplikaci"
+        android:title="O aplikaci" />
+</menu>
