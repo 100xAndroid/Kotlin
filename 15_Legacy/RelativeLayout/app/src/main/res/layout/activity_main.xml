@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- relativni layout R1, sirka max, vyska 150dp -->
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!-- textove pole Nadpis, sirka max, vyska 50dp
+             text vycentrovany, velikost textu 30sp
+             umistene k horni hrane R1, okraje 0dp -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="Nadpis"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <!-- tlacitko 100x100dp
+             vztazene ke spodni hrane textWiev, okraje 0dp
+             a k prave hrane R1, okraje 0dp -->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            app:cornerRadius="25dp"
+            android:text="Tlačítko" />
+
+        <!-- prvni pole pro zadani textu, typ text
+             sirka max, vyska 50dp, prednastaveny obsah 'Text 1'
+             vztazene ke spodni hrane objektu textWiev, vzdalenost 0dp
+               a k leve hrane R1, okraje 0dp
+               a k leve hrane objektu button, okraje 0dp -->
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toStartOf="@+id/button"
+            android:inputType="text"
+            android:text="Text 1" />
+
+        <!-- druhe pole pro zadani textu, typ text
+             sirka max, vyska 50dp, prednastaveny obsah 'Text 2'
+             vztazene ke spodni hrane objektu editText, vzdalenost 0dp
+               a k leve hrane R1, okraje 0dp
+               a k leve hrane objektu button, okraje 0dp -->
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toStartOf="@+id/button"
+            android:inputType="text"
+            android:text="Text 2" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

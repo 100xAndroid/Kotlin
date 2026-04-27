@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabHost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Frame layout, s obsahem vsech zalozek
+             sirka a vyska max -->
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- linear layout, s obsahem prvni zalozky
+                 sirka a vyska max, vertikalni -->
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- scrooll view, sirka a vyska max -->
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- linear layout, sdruzuje vsechny radky
+                         sirka a vyska max, vertikalni -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <!-- linear layout, tvori jednu radku (obrazek + text)
+                             sirka a vyska max, horizontalni -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <!-- ImageView - obrazek verze androidu z resources
+                                 sirka a vyska 120dp, okraj 2dp, sedy ramecek 1dp -->
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/icecreamsandwich" />
+                            <!-- textove pole s verzi Androidu
+                                 sirka max, vyska 50dp, okraj 5dp
+                                 velikost textu 30sp -->
+                            <TextView
+                                android:text="Android 4.0\nIce Cream Sandwich"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/jellybean" />
+                            <TextView
+                                android:text="Android 4.1 - 4.3\nJelly Bean"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/kitkat" />
+                            <TextView
+                                android:text="Android 4.4\nKitkat"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/lollipop" />
+                            <TextView
+                                android:text="Android 5.0, 5.1\nLollipop"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/marshmallow" />
+                            <TextView
+                                android:text="Android 6.0\nMarshmallow"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/nougat" />
+                            <TextView
+                                android:text="Android 7.0, 7.1\nNougat"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/oreo" />
+                            <TextView
+                                android:text="Android 8.0, 8.1\nOreo"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/pie" />
+                            <TextView
+                                android:text="Android 9.0\nPie"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="2dp"
+                                android:background="#dddddd"
+                                android:padding="1dp"
+                                app:srcCompat="@drawable/android10" />
+                            <TextView
+                                android:text="Android 10"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="5dp"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <!-- linear layout, s obsahem druhe zalozky
+                 sirka a vyska max, vertikalni -->
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- scrooll view, sirka a vyska max -->
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- textove pole, sirka max, vyska 35dp
+                         okraj 5dp, velikost textu 15sp -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:textSize="15sp"
+                        android:text="@string/verzeAndroidu" />
+                </ScrollView>
+            </LinearLayout>
+
+            <!-- linear layout, s obsahem treti zalozky
+                 sirka a vyska max, vertikalni -->
+            <LinearLayout
+                android:id="@+id/tab3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- scrooll view, sirka a vyska max -->
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- textove pole, sirka max, vyska 35dp
+                         okraj 5dp, velikost textu 15sp -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:textSize="15sp"
+                        android:text="@string/verzeAPI" />
+                </ScrollView>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>
+

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Tab Host</string>
+    <string name="verzeAndroidu">Android 4.0 Ice Cream Sandwich
+\naktualizace 4.0.1, 4.0.2, 4.0.3 a 4.0.4
+\n
+\nAndroid 4.1 Jelly Bean
+\naktualizace 4.1.1 a 4.1.2
+\n
+\nAndroid 4.2 Jelly Bean
+\naktualizace 4.2.1 a 4.2.2
+\n
+\nAndroid 4.3 Jelly Bean
+\naktualizace 4.3.1
+\n
+\nAndroid 4.4 KitKat
+\naktualizace 4.4.1, 4.4.2, 4.4.3, 4.4.4, 4.4W, 4.4W.1 a 4.4W.2
+\n
+\nAndroid 5.0 Lollipop
+\naktualizace 5.0.1 a 5.0.2
+\n
+\nAndroid 5.1 Lollipop
+\naktualizace 5.1.1
+\n
+\nAndroid 6.0 Marshmallow
+\naktualizace 6.0.1
+\n
+\nAndroid 7.0 Nougat
+\nbez aktualizací
+\n
+\nAndroid 7.1 Nougat
+\naktualizace 7.1.1 a 7.1.2
+\n
+\nAndroid 8.0 Oreo
+\nbez aktualizací
+\n
+\nAndroid 8.1 Oreo
+\nbez aktualizací
+\n
+\nAndroid 9.0 Pie
+\nbez aktualizací
+\n
+\nAndroid 10
+\nbez aktualizací
+\n
+    </string>
+
+    <string name="verzeAPI">Android 4.0 Ice Cream Sandwich
+\nAPI verze 14, 15
+\n
+\nAndroid 4.1 Jelly Bean
+\nAPI verze 16
+\n
+\nAndroid 4.2 Jelly Bean
+\nAPI verze 17
+\n
+\nAndroid 4.3 Jelly Bean
+\nAPI verze 18
+\n
+\nAndroid 4.4 KitKat
+\nAPI verze 19, 20
+\n
+\nAndroid 5.0 Lollipop
+\nAPI verze 21
+\n
+\nAndroid 5.1 Lollipop
+\nAPI verze 22
+\n
+\nAndroid 6.0 Marshmallow
+\nAPI verze 23
+\n
+\nAndroid 7.0 Nougat
+\nAPI verze 24
+\n
+\nAndroid 7.1 Nougat
+\nAPI verze 25
+\n
+\nAndroid 8.0 Oreo
+\nAPI verze 26
+\n
+\nAndroid 8.1 Oreo
+\nAPI verze 27
+\n
+\nAndroid 9.0 Pie
+\nAPI verze 28
+\n
+\nAndroid 10
+\nAPI verze 29
+\n
+    </string>
+</resources>
