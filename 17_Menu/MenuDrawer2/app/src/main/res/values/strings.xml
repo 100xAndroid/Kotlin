@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Menu Drawer 2</string>
+    <string name="drawer_otevrit">Otevřít</string>
+    <string name="drawer_zavrit">Zavřít</string>
+</resources>

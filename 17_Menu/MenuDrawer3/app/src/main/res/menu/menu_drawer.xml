@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Nougat">
+        <menu>
+            <item
+                android:id="@+id/nav_70"
+                android:icon="@drawable/logo_android_male"
+                android:title="Nougat 7.0" />
+            <item
+                android:id="@+id/nav_71"
+                android:icon="@drawable/logo_android_male"
+                android:title="Nougat 7.1" />
+        </menu>
+    </item>
+
+    <item android:title="Oreo">
+        <menu>
+            <item
+                android:id="@+id/nav_80"
+                android:icon="@drawable/logo_android_male"
+                android:title="Oreo 8.0" />
+            <item
+                android:id="@+id/nav_81"
+                android:icon="@drawable/logo_android_male"
+                android:title="Oreo 8.1" />
+        </menu>
+    </item>
+
+    <item android:title="Pie">
+        <menu>
+            <item
+                android:id="@+id/nav_90"
+                android:icon="@drawable/logo_android_male"
+                android:title="Pie 9.0" />
+        </menu>
+    </item>
+
+    <item android:title="10">
+        <menu>
+            <item
+                android:id="@+id/nav_10"
+                android:icon="@drawable/logo_android_male"
+                android:title="Android 10 a vyšší" />
+        </menu>
+    </item>
+
+</menu>
+

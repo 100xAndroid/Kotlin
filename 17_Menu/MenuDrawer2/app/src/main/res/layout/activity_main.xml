@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- linearni layout L1, vertikalni, sirka max, vyska max -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- ToolBar - zahlavi formulare -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white"
+        app:title="@string/app_name"
+        android:background="?attr/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- DrawerLayout roztazeny pres cely formular -->
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- ConstraintLayout pro zobrazeni prvku formulare -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- textove pole -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEST TEST TEST"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- RecyclerView ktery tvori menu -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/navList"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#aaffffff"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

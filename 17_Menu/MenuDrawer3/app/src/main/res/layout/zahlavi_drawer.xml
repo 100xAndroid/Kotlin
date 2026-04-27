@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- constraint layout s barevnym prechodem na pozadi -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/menu_drawer_pozadi"
+    android:layout_width="match_parent"
+    android:layout_height="145dp">
+
+    <!-- ikona Android -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="97dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Android"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_android" />
+
+    <!-- textove pole s nadpisem Verze Androidu -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:text="Verze Androidu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- textove pole s informaci o verzich -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:text="Vývojové verze operačního systému Android"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
