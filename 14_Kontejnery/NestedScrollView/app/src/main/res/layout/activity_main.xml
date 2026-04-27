@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- ScrollView scrollViewVerzeAndroidu
+         sirka a vyska max, okraje 6dp,
+         navazany na parent kontejner -->
+    <ScrollView
+        android:id="@+id/scrollViewVerzeAndroidu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Linearni layout, se scrolovatelnym obsahem
+             sirka max, vyska podle obsahu, vertikalni orientace -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- textove pole Nadpis, sirka max, vyska 35dp
+                 velikost textu 20sp -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Verze Androidu"
+                android:textSize="20sp" />
+
+            <!-- NestedScrollView - vnorena scrolovatelna oblast
+                 vyska 180dp, sirka max, sede podbarveni -->
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#EFEFEF"
+                android:fillViewport="true">
+
+                <!-- LinearLayout s obsahem scrolovatelné oblasti -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- TextView, které bude naplněno dlouhym textem -->
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <!-- ImageView s logem Androidu
+                 sirka, vyska 120dp, okraj 2dp, odsazeni 1dp -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/icecreamsandwich" />
+
+            <!-- textove pole s verzi Androidu
+                 sirka max, vyska 50dp, okraj 5dp, velikost textu 30sp -->
+            <TextView
+                android:text="Android 4.0 Ice Cream Sandwich"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/jellybean" />
+            <TextView
+                android:text="Android 4.1 - 4.3 Jelly Bean"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/kitkat" />
+            <TextView
+                android:text="Android 4.4 Kitkat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/lollipop" />
+            <TextView
+                android:text="Android 5.0, 5.1 Lollipop"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/marshmallow" />
+            <TextView
+                android:text="Android 6.0 Marshmallow"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/nougat" />
+            <TextView
+                android:text="Android 7.0, 7.1 Nougat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/oreo" />
+            <TextView
+                android:text="Android 8.0, 8.1 Oreo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/pie" />
+            <TextView
+                android:text="Android 9.0 Pie"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="2dp"
+                android:background="#dddddd"
+                android:padding="1dp"
+                app:srcCompat="@drawable/android10" />
+            <TextView
+                android:text="Android 10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

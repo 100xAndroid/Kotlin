@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ConstraintLayout, hlavni kontejner na formulari -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- textove pole Jazyk -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Jazyk"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- prvni kontejner RadioGroup -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <!-- prvni prepinac, prednastaveny -->
+        <RadioButton
+            android:id="@+id/radioButtonA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="čeština" />
+
+        <!-- druhy prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="angličtina" />
+    </RadioGroup>
+
+    <!-- textove pole Verze Androidu -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Verze Androidu"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <!-- druhy kontejner RadioGroup -->
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <!-- prvni prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.0-5.1.1" />
+
+        <!-- druhy prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.0-6.0.1" />
+
+        <!-- treti prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="7.0-7.1.2" />
+
+        <!-- ctvrty prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.0-8.1" />
+
+        <!-- paty prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.0" />
+
+        <!-- sesty prepinac, prednastaveny -->
+        <RadioButton
+            android:id="@+id/radioButtonB6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <!-- sedmy prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11" />
+
+        <!-- osmy prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12" />
+
+        <!-- devaty prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13" />
+
+        <!-- desaty prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14" />
+
+        <!-- jedenacty prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15" />
+
+        <!-- dvanacty prepinac -->
+        <RadioButton
+            android:id="@+id/radioButtonB12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

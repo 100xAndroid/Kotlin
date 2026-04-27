@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Nested Scroll View</string>
+    <string name="verzeAndroidu">
+        Android Alpha
+        \nPrvní interní verze Androidu, rok 2007.
+        \n
+        \nAndroid Beta
+        \n2007, první veřejná verze Androidu, sedm aktualizací.
+        \n
+        \nAndroid 1.0, bez kódového označení
+        \n2008, API verze 1.
+        \n
+        \nAndroid 1.1, bez kódového označení
+        \n2009, API verze 2.
+        \n
+        \nAndroid 1.5 Cupcake (mufin)
+        \n2009, API verze 3.
+        \n
+        \nAndroid 1.6 Donut (kobliha)
+        \n2009, API verze 4.
+        \n
+        \nAndroid 2.0 Eclair (rakvička)
+        \n2009, API verze 5–6, jedna aktualizace (2.0.1).
+        \n
+        \nAndroid 2.1 Eclair (rakvička)
+        \n2010, API verze 7.
+        \n
+        \nAndroid 2.2 Froyo (mražený jogurt)
+        \n2010, API verze 8, tři aktualizace (2.2.1, 2.2.2 a 2.2.3).
+        \n
+        \nAndroid 2.3 Gingerbread (perník)
+        \n2010, API verze 9, 10, sedm aktualizací (2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.3.5, 2.3.6 a 2.3.7).
+        \n
+        \nAndroid 3.0 Honeycomb (včelí plástev)
+        \n2011, API verze 11.
+        \n
+        \nAndroid 3.1 Honeycomb (včelí plástev)
+        \n2011, API verze 12.
+        \n
+        \nAndroid 3.2 Honeycomb (včelí plástev)
+        \n2011, API verze 13, šest aktualizací (3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5 a 3.2.6).
+        \n
+        \nAndroid 4.0 Ice Cream Sandwich (zmrzlinový sendvič)
+        \n2011, API verze 14, 15, čtyři aktualizace (4.0.1, 4.0.2, 4.0.3 a 4.0.4).
+        \n
+        \nAndroid 4.1 Jelly Bean (želé bonbon)
+        \n2012, API verze 16, dvě aktualizace (4.1.1 a 4.1.2).
+        \n
+        \nAndroid 4.2 Jelly Bean (želé bonbon)
+        \n2012, API verze 17, dvě aktualizace (4.2.1 a 4.2.2).
+        \n
+        \nAndroid 4.3 Jelly Bean (želé bonbon)
+        \n2013, API verze 18, jedna aktualizace (4.3.1).
+        \n
+        \nAndroid 4.4 KitKat (tyčinky s čokoládovou polevou)
+        \n2013, API verze 19, 20, sedm aktualizací (4.4.1, 4.4.2, 4.4.3, 4.4.4, 4.4W, 4.4W.1 a 4.4W.2).
+        \n
+        \nAndroid 5.0 Lollipop (lízátko)
+        \n2014, API verze 21, dvě aktualizace (5.0.1 a 5.0.2).
+        \n
+        \nAndroid 5.1 Lollipop (lízátko)
+        \n2015, API verze 22, jedna aktualizace (5.1.1).
+        \n
+        \nAndroid 6.0 Marshmallow (žužu)
+        \n2015, API verze 23, jedna aktualizace (6.0.1).
+        \n
+        \nAndroid 7.0 Nougat (nugát)
+        \n2016, API verze 24.
+        \n
+        \nAndroid 7.1 Nougat (nugát)
+        \n2016, API verze 25, dvě aktualizace (7.1.1 a 7.1.2).
+        \n
+        \nAndroid 8.0 Oreo (čokoládové sušenky)
+        \n2017, API verze 26.
+        \n
+        \nAndroid 8.1 Oreo (čokoládové sušenky)
+        \n2017, API verze 27.
+        \n
+        \nAndroid 9.0 Pie (koláč)
+        \n2018, API verze 28.
+        \n
+        \nAndroid 10 (Android 10)
+        \n2019, API verze 29.
+        \n
+        \nAndroid 11 (Android 11)
+        \n2020, API verze 30.
+        \n
+        \nAndroid 12 (Android 12)
+        \n2021, API verze 31, 32, jedna aktualizace (12L).
+        \n
+        \nAndroid 13 (Android 13)
+        \n2022, API verze 34.
+        \n
+        \nAndroid 14 (Android 14)
+        \n2023, API verze 34.
+        \n
+    </string>
+
+</resources>
