@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- mrizkovy layout G2, sirka max, vyska 150dp -->
+    <GridLayout
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_height="150dp"
+        android:columnCount="2">
+
+        <!-- textove pole, sirka max, vyska 50dp
+             roztazeny pres dva sloupce
+             text Nadpis, vycentrovany, velikost textu 30sp -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_columnSpan="2"
+            android:text="Nadpis"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <!-- mezera, sirka max, vyska 50dp
+             vodorovne vyplnit bunku -->
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="fill_horizontal" />
+
+        <!-- tlacitko 100x100dp, roztazene pres dva radky
+             text 'Tlacitko' -->
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_rowSpan="2"
+            android:text="Tlačítko"
+            android:textSize="12sp"
+            app:cornerRadius="25dp" />
+
+        <!-- druhe pole pro zadani textu, typ text
+             sirka max, vyska 50dp, vodorovne vyplnit bunku
+             prednastaveny obsah 'Text' -->
+        <EditText
+            android:inputType="text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="fill_horizontal"
+            android:text="Text" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
