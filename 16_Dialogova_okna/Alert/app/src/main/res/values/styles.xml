@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="datepicker" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#00ff00</item>     <!-- barva zahlavi -->
+        <item name="colorControlActivated">#00ff00</item>   <!-- barva zvoleneho dne -->
+        <item name="colorControlHighlight">#009900</item>   <!-- barva oznaceneho dne -->
+        <item name="android:selectableItemBackgroundBorderless">@color/material_dynamic_neutral80</item>   <!-- barva posuvniku mesice -->
+    </style>
+
+</resources>

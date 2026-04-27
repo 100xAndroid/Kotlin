@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- layout ktery definuje vzhled dialogu -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_alert_container"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp">
+
+    <!-- prvni pole pro zadani textu, typ text
+     sirka max, vyska 50dp, prednastaveny obsah 'Text 1' -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:text="Text 1" />
+
+    <!-- druhe pole pro zadani textu, typ text
+         sirka max, vyska 50dp, prednastaveny obsah 'Text 2' -->
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:text="Text 2" />
+</LinearLayout>
