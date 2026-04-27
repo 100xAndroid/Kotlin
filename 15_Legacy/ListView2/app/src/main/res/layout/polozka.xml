@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="91dp">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#dddddd"
+        android:padding="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icecreamsandwich" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/imgLogo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="285dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/imgLogo"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
