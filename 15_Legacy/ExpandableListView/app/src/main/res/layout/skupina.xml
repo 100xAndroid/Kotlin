@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- textove pole s nazvem skupiny
+         sirka max, vyska 40dp, odsazeni zleva 35dp
+         vertikalne vycentrovany, pozadi svetle,
+          text tmavy, velikost 24sp, tucny -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:paddingStart="35dp"
+        android:gravity="center_vertical"
+        android:background="#dddddd"
+        android:textColor="#777777"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- oddelovaci cara, vyska 1dp, bila barva -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+</LinearLayout>
