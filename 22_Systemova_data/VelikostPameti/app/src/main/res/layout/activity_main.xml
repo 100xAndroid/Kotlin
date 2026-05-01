@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtPametCelkemInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:text="Operační paměť celkem:"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPametCelkem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="---"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtPametCelkemInfo"
+        app:layout_constraintTop_toTopOf="@+id/txtPametCelkemInfo" />
+
+    <TextView
+        android:id="@+id/txtPametVolnaInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Operační paměť volná:"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPametCelkemInfo" />
+
+    <TextView
+        android:id="@+id/txtPametVolna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="---"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtPametVolnaInfo"
+        app:layout_constraintTop_toTopOf="@+id/txtPametVolnaInfo" />
+
+
+    <TextView
+        android:id="@+id/txtUlozisteCelkemInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Interní úložiště celkem:"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPametVolnaInfo" />
+
+    <TextView
+        android:id="@+id/txtUlozisteCelkem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="---"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtUlozisteCelkemInfo"
+        app:layout_constraintTop_toTopOf="@+id/txtUlozisteCelkemInfo" />
+
+    <TextView
+        android:id="@+id/txtUlozisteVolneInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Interní úložiště volné:"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUlozisteCelkemInfo" />
+
+    <TextView
+        android:id="@+id/txtUlozisteVolne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="---"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtUlozisteVolneInfo"
+        app:layout_constraintTop_toTopOf="@+id/txtUlozisteVolneInfo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
