@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZalozkaUpravit">
+
+    <LinearLayout
+        android:id="@+id/tab3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="368dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Úprava záznamu"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textUpravitId"
+            android:layout_width="360dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:inputType="text"
+            android:text="ID záznamu" />
+
+        <EditText
+            android:id="@+id/textUpravitNazev"
+            android:layout_width="360dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:inputType="text"
+            android:text="Název" />
+
+        <EditText
+            android:id="@+id/textUpravitVerze"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:text="Verze" />
+
+        <Button
+            android:id="@+id/butUpravitZaznam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:onClick="butUpravitZaznam"
+            android:text="Upravit záznam" />
+
+    </LinearLayout>
+
+</FrameLayout>

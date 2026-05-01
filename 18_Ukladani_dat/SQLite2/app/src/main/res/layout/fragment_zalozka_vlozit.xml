@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZalozkaVlozit">
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="368dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Vložení záznamu"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textVlozitNazev"
+            android:layout_width="360dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:inputType="text"
+            android:text="Název" />
+
+        <EditText
+            android:id="@+id/textVlozitVerze"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:text="Verze" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:onClick="butVlozitZaznam"
+            android:text="Vložit záznam" />
+
+    </LinearLayout>
+
+</FrameLayout>
