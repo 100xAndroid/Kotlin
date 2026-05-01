@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Temata1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/oranzova</item>
+        <item name="colorPrimaryVariant">@color/oranzovatmava</item>
+        <item name="colorOnPrimary">@color/bila</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/zelena</item>
+        <item name="colorSecondaryVariant">@color/zelenatmava</item>
+        <item name="colorOnSecondary">@color/cerna</item>
+        <!-- Action bar color. -->
+        <item name="actionBarStyle">@color/oranzova</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.Temata1" parent="Base.Theme.Temata1" />
+</resources>

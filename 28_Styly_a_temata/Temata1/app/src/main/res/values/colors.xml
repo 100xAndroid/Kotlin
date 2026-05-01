@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tradewind">#FF4cb5a6</color>
+    <color name="surfiegreen">#FF008577</color>
+    <color name="mosque">#FF00574B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="oranzova">#FFFF9800</color>
+    <color name="oranzovatmava">#FFC66900</color>
+    <color name="oranzovasvetla">#FFFFC947</color>
+    <color name="zelena">#FFAED581</color>
+    <color name="zelenatmava">#FF7DA453</color>
+    <color name="zelenasvetla">#FFE1FFB1</color>
+    <color name="cerna">#FF000000</color>
+    <color name="bila">#FFFFFFFF</color>
+</resources>
