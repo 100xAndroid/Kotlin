@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ローカリゼーション</string>
+    <string name="AndroidNazev">Android （アンドロイド）</string>
+    <string name="AndroidText">Android OSは、2003年に米国サンフランシスコ近郊のシリコンバレーにあるAndroid Inc.によって、純粋に携帯電話向けのOSとして基礎が作られた。2005年、グーグルはこの小さな会社の可能性を見抜き、あっさりと買収してしまった。その2年後、Googleは開発環境（SDK）を公開し、そのために設立したOpen Handset Alliance（OHA）に開発を委ねた。</string>
+</resources>

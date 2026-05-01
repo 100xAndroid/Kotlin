@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Localization</string>
+    <string name="AndroidNazev">Android</string>
+    <string name="AndroidText">The foundations of the Android operating system, originally aimed purely at mobile phones, were laid in 2003 by Android Inc., a California company based in Silicon Valley near San Francisco, USA. In 2005, Google discovered the potential of the small company and simply bought it out. Two years later, Google released the development environment (SDK) and handed over development to the Open Handset Alliance (OHA), which it founded for this purpose.</string>
+</resources>
