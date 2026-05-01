@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30000000">
+
+    <TextView
+        android:id="@+id/txtPocasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Informace o počasí"
+        android:textAlignment="center"
+        android:textColor="#E0E0E0"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/txtDatum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPocasi"
+        android:layout_centerHorizontal="true"
+        android:text="Doplňkové informace"
+        android:textAlignment="center"
+        android:textColor="#E0E0E0"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/btnNastaveni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ico_nastaveni" />
+
+    <ImageButton
+        android:id="@+id/btnObnovit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ico_obnovit" />
+
+</RelativeLayout>
