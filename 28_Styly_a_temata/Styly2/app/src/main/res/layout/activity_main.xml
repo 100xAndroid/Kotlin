@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="Tlačítko 1"
+        style="@style/StylTlacitko" />
+
+    <Button
+        android:text="Tlačítko 2"
+        style="@style/StylTlacitkoCervene" />
+
+    <Button
+        android:text="Tlačítko 3"
+        style="@style/StylTlacitkoZlute" />
+
+</LinearLayout>
